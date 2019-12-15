@@ -37,4 +37,4 @@ email: ""
 
 David has a unique way of solving problems. With a scientific mindset, he drives quality and innovation through experimentation and is not afraid of failure. In an iterative, continuous feedback cycle, he encourages quality conversations to bring diverse, untapped ideas to reality.
 
-David is a leader in distributed software resiliency and delivery, all while engineering complexity to generate simple, maintainable and reliable solutions. Part of his philosophy is that open, honest and transparent conversations fosters a [generative culture](files/A-typology-of-organisational-cultures.pdf) where quality data can be used by an organization to learn and grow.
+He is a leader in distributed software resiliency and delivery, all while engineering complexity to generate simple, maintainable and reliable solutions. Part of his philosophy is that open, honest and transparent conversations fosters a [generative culture](files/A-typology-of-organisational-cultures.pdf) where quality data can be used by an organization to learn and grow.
