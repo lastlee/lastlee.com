@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/lastlee
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lastlee.com
+  * I am lastlee (https://keybase.io/lastlee) on keybase.
+  * I have a public key ASCt9UwxSZIJPrL6-vn5yL1uXnIq2f80KaVX6y_g9I92-Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120adf54c314992093eb2fafaf9f9c8bd6e5e722ad9ff3429a557eb2fe0f48f76f80a",
+      "host": "keybase.io",
+      "kid": "0120adf54c314992093eb2fafaf9f9c8bd6e5e722ad9ff3429a557eb2fe0f48f76f80a",
+      "uid": "7975b4a79b1bf1bd57050e8ef7db1d19",
+      "username": "lastlee"
+    },
+    "merkle_root": {
+      "ctime": 1574368381,
+      "hash": "635598b0d9fda001dd98c7ae539e280a6749300de4932aed891ddab8c4dcd1ebac7540a1bf9c5f88fb8e5205d8760fdac38d3d4f79ed4040801ed45bd36ae8b9",
+      "hash_meta": "98a658f981a2c8b38cb8bf6cb7f4b3af57792b30428e69a80670398754ac90f8",
+      "seqno": 10452926
+    },
+    "service": {
+      "entropy": "MbshXwET6vTAr6Bb4hRq1cF8",
+      "hostname": "lastlee.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1574368389,
+  "expire_in": 504576000,
+  "prev": "3aaddd16846e3d3547e321a794e9a744cf6c3badc18fb0a92477c58af36fe77c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrfVMMUmSCT6y+vr5+ci9bl5yKtn/NCmlV+sv4PSPdvgKp3BheWxvYWTESpcCCcQgOq3dFoRuPTVH4yGnlOmnRM9sO63Bj7CpJHfFivNv53zEIL0UofrtZmk7jAdm91zbNdOTY0vSHNfOUl7/5F+OjumlAgHCo3NpZ8RAIXwzCe6xhPvnuq61glt9vA33swFTdCIonOUAAfAgJxpLwcjKmENQEjHrle9WxwnkY1w4u/0YlC6FMrkK4jnwCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGimsYqc895wzh4cHNwTbgJZM4cwca5HCMJntdBxnhtYo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lastlee
+
+==================================================================
