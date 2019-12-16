@@ -1,9 +1,9 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to Effectively Managed Tech Debt"
-subtitle: ""
-summary: ""
+title: "Effectively Manage Tech Debt"
+subtitle: "Prioritizing end-of-life for products, services and technologies"
+summary: "Stop reinventing the wheel and reinvent a wheel"
 authors: []
 tags: ["tech debt"]
 categories: []

@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How I Setup My Mac"
-subtitle: ""
-summary: ""
+title: "Setup My Mac"
+subtitle: "Simple customizations to automate the hardware lifecycle"
+summary: "Simple customizations to automate the hardware lifecycle"
 authors: []
-tags: []
+tags: ["mac", "setup"]
 categories: []
 date: 2019-12-14T23:02:57-08:00
 lastmod: 2019-12-14T23:02:57-08:00

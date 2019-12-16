@@ -14,12 +14,6 @@ organizations:
 
 display_education: false
 
-interests:
-- DevOps
-- Site Reliability Engineering
-- Psychological Safety
-- Technical Program Management
-
 social:
 - icon: linkedin
   icon_pack: fab

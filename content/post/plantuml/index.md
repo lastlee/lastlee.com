@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "How to Design Beautiful Architecture Diagrams with PlantUML"
-subtitle: ""
-summary: ""
+title: "Design Beautiful Architecture Diagrams with Code"
+subtitle: "Shift the Pull Request culture to the left"
+summary: "Use PlantUML to collaboratively design software architecture"
 authors: []
-tags: []
+tags: ["plantuml", "architecture", "diagram", "pull request"]
 categories: []
 date: 2019-12-14T22:57:51-08:00
 lastmod: 2019-12-14T22:57:51-08:00

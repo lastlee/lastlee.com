@@ -3,9 +3,9 @@
 
 title: "Reading Lists"
 subtitle: ""
-summary: ""
+summary: "I'll try to keep my reading list up-to-date"
 authors: []
-tags: ["reading", "lists", "books"]
+tags: ["reading", "books"]
 categories: []
 date: 2019-12-14T22:39:00-08:00
 lastmod: 2019-12-14T22:39:00-08:00

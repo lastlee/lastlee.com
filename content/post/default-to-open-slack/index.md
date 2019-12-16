@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Communicate Effectively with Slack at Scale"
-subtitle: ""
-summary: ""
+subtitle: "Empower people with inclusion to yield high quality conversations on Slack"
+summary: "Increase productivity and collaboration with Slack"
 authors: []
 tags: ["slack", "communication", "psychological safety"]
 categories: []

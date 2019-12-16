@@ -2,10 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "How to Manage Terragrunt at Scale"
-subtitle: ""
-summary: ""
+subtitle: "Provision infrastructure at scale"
+summary: "A technical look into a DRY implementation of Terraform"
 authors: []
-tags: []
+tags: ["terraform", "terragrunt", "immutable"]
 categories: []
 date: 2019-12-14T23:03:18-08:00
 lastmod: 2019-12-14T23:03:18-08:00
