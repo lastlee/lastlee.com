@@ -2,8 +2,8 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Systems Not Heroes"
-subtitle: ""
-summary: ""
+subtitle: "The best organizations put their future into systems, not transient heroes"
+summary: "The best organizations put their future into systems, not transient heroes"
 authors: []
 tags: []
 categories: []
@@ -18,7 +18,7 @@ draft: true
 image:
   caption: ""
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
