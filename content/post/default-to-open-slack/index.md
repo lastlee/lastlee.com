@@ -105,3 +105,8 @@ While diversity and inclusion has been a trending topic in the industry for a li
 
 ## Conclusion
 We set out with the goal of breaking down silos and increasing transparency by communicating by default in an open manner. By leveraging the dynamic and organic nature of Slack, we allowed users to organically develop and optimize their processes while providing guardrails around practices that went against an open and inclusive culture.
+
+## See Also
+
+Guy Martin discussing our practices at Slack Frontiers 2019
+{{<youtube GkxIxf02Wa0>}}
