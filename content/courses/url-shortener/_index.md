@@ -21,8 +21,20 @@ menu:
     weight: 1
 ---
 
-## URL Shortening Service
-Learn how to design a highly scalable URL shortening service.
+## About this course
+Learn how to design a highly scalable url shortening service, exercising fundamental system design principles and architecture diagramming. In this course, we will design a primitive url shortening service, then add requirements that cause us to redesign the system as we measure capacity limitations.
 
-## What is a URL shortener?
-A URL shortening service simply creates a short URL for a longer, more complex URL. For example, a user may want to have a handy, short url instead of `https://longandunwieldy.com/url/with/parameters?makes=this+too+long`. The URL shortening service would return a URL like `https://sho.rt/Xv7d` which will resolve to the long url when entered into the browser.
+## What is a url shortener?
+url shortening is a technique on the World Wide Web in which a Uniform Resource Locator (url) may be made substantially shorter and still direct to the required page. This is achieved by using a redirect which links to the web page that has a long url. For example, the url "https://example.com/assets/category_B/subcategory_C/Foo/" can be shortened to "https://example.com/Foo", and the url "http://example.com/about/index.html" can be shortened to "https://goo.gl/aO3Ssc ". Often the redirect domain name is shorter than the original one. A friendly url may be desired for messaging technologies that limit the number of characters in a message (for example SMS), for reducing the amount of typing required if the reader is copying a url from a print source, for making it easier for a person to remember, or for the intention of a permalink.
+
+## Why a url shortener?
+At its core, the url shortening problem is extremely simple. We will explore the problem space and introduce new scalability requirements to adapt and modify the system to cope with scale. These principles can be applied to a wide variety of systems needing to scale.
+
+## The process
+We will decompose the process into a few phases:
+1. **Design Phase:** understand the problem and estimate the unknowns. Iterate on a few potential solutions to the problem.
+2. **Compare Systems:** identify the limitations of the different solutions regarding application design, fault tolerance and recovery.
+3. **Compare Capacities:** identify the limitations of the different solutions regarding CPU, memory, network, disk, etc.
+4. **Compare Scalability:** take the existing design and simulate 100x the incoming request volume. Analyze the performance, cost and scalability under the additional load.
+
+Let's get started!

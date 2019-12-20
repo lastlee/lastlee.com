@@ -1,0 +1,73 @@
+@startuml
+
+skinparam RoundCorner 20
+skinparam MaxMessageSize 300
+skinparam NoteBackgroundColor LightGreen
+skinparam NoteBorderColor SteelBlue
+skinparam DefaultFontName Fira Code
+
+skinparam sequence {
+  BackgroundColor AliceBlue
+  BorderColor SteelBlue
+
+  lifeline {
+    BackgroundColor OldLace
+    BorderColor SteelBlue
+  }
+  actor {
+    BackgroundColor LightYellow
+    BorderColor SteelBlue
+  }
+  participant {
+    BackgroundColor AliceBlue
+    BorderColor SteelBlue
+  }
+  box {
+    BackgroundColor LightYellow
+    BorderColor SteelBlue
+  }
+  arrow {
+    Color RoyalBlue
+    Thickness 2
+  }
+}
+
+title = **URL Shortener Design 3**
+
+actor User
+participant App
+participant DB
+
+User -> App: Request long url to be made short
+note right User
+http://longurl.com/
+endnote
+
+App -> DB: Insert record
+note right App
+{
+  url: http://longurl.com/
+}
+end note
+
+DB -> DB: Generate primary key: 64-bit int
+DB -> DB: Automatically map to storable id
+
+note right DB #LightBlue
+| id     | url                 |
+| 123456 | http://longurl.com/ |
+end note
+
+DB --> App: return id = 123456
+
+App -> App: Hash key to storable id
+note right App
+hashid(123456) = xkNDJ
+end note
+
+App -> User: Return short url
+note left App
+http://sho.rt/xkNDJ
+end note
+
+@enduml
