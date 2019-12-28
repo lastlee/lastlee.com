@@ -4,7 +4,7 @@ linktitle: "Design 1: Shared Nothing"
 toc: true
 type: docs
 date: "2019-05-05T00:00:00+01:00"
-draft: true
+draft: false
 menu:
   url-shortener:
     parent: Course Overview
@@ -32,14 +32,14 @@ We need to figure out the total length of the short url based on a 128 bit id.
 * base16 representation, a hex value is 4 bits. Each character represents $2^4 = 16$ values. We group the 128 elements into groups of 4. This would be 32 groupings, or in mathematical terms: $2^{128} = 2^{4^{32}}$. 32 hex characters is the standard representation of a uuid/md5/sha.
 * base64 representation, $2^{128} = 2^{6^x}$. Taking $log_2$ of each side $\(x = \dfrac{128}{6} ~= 21\)$. A base64 representation would mean a 128 bit id will be represented by 21 base64 characters.
 
-We need to make sure we store $10^{13}$ in the wost case of 100x traffic.
+We need to make sure we store $10^{13}$ urls in the wost case of 100x traffic.
 
 Let's calculate the maximum address space available to us for 10 elements:
 
 * base32: $2^{5^{10}} = 2^{10^5} = 10^{3^5} = 10^{15}$
 * base64: $2^{6^{10}} = 2^{10^6} = 10^{3^6} = 10^{18}$
-* $10^{13}$ in base32 -> $10^{13} = 2^{5^x}$. Then taking $log_2$ again, $13 * log_2(10) = 13 * 3.5 = 5 * x$ and $x \approx 9$
-* $10^{13}$ in base64 -> $10^{13} = 2^{6^x}$. Then taking $log_2$ again, $13 * log_2(10) = 13 * 3.5 = 6 * x$ and $x \approx 8$
+* $10^{13}$ urls in base32 -> $10^{13} = 2^{5^x}$. Then taking $log_2$ again, $13 * log_2(10) = 13 * 3.5 = 5 * x$ and $x \approx 9$
+* $10^{13}$ urls in base64 -> $10^{13} = 2^{6^x}$. Then taking $log_2$ again, $13 * log_2(10) = 13 * 3.5 = 6 * x$ and $x \approx 8$
 
 Given that we need about 8 characters of [a-zA-Z0-9] and 9 characters of [a-z0-9], using base32 probably provides a better user experience.
 
