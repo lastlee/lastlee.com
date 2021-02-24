@@ -10,7 +10,7 @@ categories: []
 date: {{ .Date }}
 lastmod: {{ .Date }}
 featured: false
-draft: true
+draft: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -18,7 +18,7 @@ draft: true
 image:
   caption: ""
   focal_point: ""
-  preview_only: true
+  preview_only: false
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
